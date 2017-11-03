@@ -86,3 +86,8 @@ print("Solve:")
 print(solve(lst, y))
 # 5
 print("FFT:")
+print(np.fft.fft(np.array([1, 1, 1, 1, 1, 1, 1, 1])))
+print("Coef:")
+print(np.corrcoef([1, 0, 1], [0, 2, 1]))
+print("Poly:")
+print(np.poly1d([2, 1, 3]))
